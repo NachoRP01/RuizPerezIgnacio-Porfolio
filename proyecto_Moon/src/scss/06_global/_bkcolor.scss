@@ -1,0 +1,9 @@
+@each $color in map-keys($palette) {
+    $rango-color:map-get($palette,$color);
+    
+    @for $index-color from 0 to length($rango-color){
+        .g--back-color-#{$color}-#{$index-color+1}{
+            background-color:nth($rango-color,$index-color+1);
+        }
+    }
+ };

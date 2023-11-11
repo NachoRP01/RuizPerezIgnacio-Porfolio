@@ -1,0 +1,13 @@
+@each $key, $value in $text {
+
+    $fuente:map-get($value, "font-family");
+    $sizes: map-get($value, "font-sizes");
+    
+    @each $clave, $valor in $sizes {
+        .g--#{$key}-#{$clave} {
+            font-family: $fuente;
+            font-size: $valor;
+        }
+    }
+    
+    }

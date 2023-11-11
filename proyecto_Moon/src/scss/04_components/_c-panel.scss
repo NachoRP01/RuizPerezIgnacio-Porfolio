@@ -1,0 +1,56 @@
+.c-panel {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    max-width: 1728px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+
+    &--alternative {
+        background-color: #011419;
+    }
+
+
+
+    &__content {
+        position: absolute;
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    &__content--grid {
+        top: 20%;
+        position: absolute;
+        width: 100%;
+        display: grid;
+    }
+
+
+
+    &__left {
+        max-width: 580px;
+        margin-bottom: 30px;
+
+    }
+
+
+    &__right {
+        max-width: 580px;
+        margin-bottom: 30px;
+    }
+
+    &__button {
+        width: 150px;
+    }
+
+    &__img {
+        display: block;
+        width: 100%;
+    }
+
+
+
+
+
+}
