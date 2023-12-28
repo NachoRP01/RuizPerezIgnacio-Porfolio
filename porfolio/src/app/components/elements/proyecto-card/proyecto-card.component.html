@@ -1,0 +1,12 @@
+<div class="l-flex">
+  <div class="l-flex l-flex__direction--column g--padding-2vh c-column--4" *ngFor="let proyecto of proyectos">
+    <div class="c-img">
+      <img
+        class="g--width-100"
+        src="../../../../assets/img/{{ proyecto.NombreProyecto }}.png"
+      />
+    </div>
+    <div class="g--padding-t-4vh g--title-L g--margin-top-5">{{ proyecto.NombreProyecto }}</div>
+    <div class="c-text">{{ proyecto.Texto }}</div>
+  </div>
+</div>

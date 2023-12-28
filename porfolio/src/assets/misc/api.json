@@ -1,0 +1,78 @@
+{
+  "Proyectos": [
+    {
+      "Id": 1,
+      "NombreProyecto": "Formulario",
+      "Texto": "Dentro de la consultoria en la que estuve trabajando, creé un formulario con registro para cada persona que pertenecia a los clientes."
+    },
+    {
+      "Id": 2,
+      "NombreProyecto": "SkillsCV",
+      "Texto": "En el centro formativo creé una web que pretendía dar a conocer las Skills FP(olimpiadas de formación profesional)."
+    },
+    {
+        "Id": 3,
+        "NombreProyecto": "Hospital",
+        "Texto": "También hice una aplicación para un Hospital con menú usando Java."   
+    },
+    {
+        "Id": 4,
+        "NombreProyecto": "BestPlans",
+        "Texto": "Hace unos días, hice una web con un grupo de personas que se dedicaba en presentar una consultoria llamada BestPlans creada en WordPress."   
+   
+    }
+  ],
+  "Lenguajes": [
+    {
+      "Id": 1,
+      "NombreProyecto": "",
+      "Texto": "BLABLABLA",
+      "ImagenNombre": "Angular"
+    },
+    {
+      "Id": 1,
+      "NombreTipo": "Genero",
+      "TipoProducto": null,
+      "Opciones": [
+        {
+          "Id": 1,
+          "Nombre": "Hombre"
+        },
+        {
+          "Id": 2,
+          "Nombre": "Mujer"
+        }
+      ],
+      "SeleccionMultiple": false
+    }
+  ],
+  "Contacto":[
+    {
+      "Id": 1,
+      "Texto": "+34 693799678",
+      "Logo": "telefono",
+      "Enlace":false
+    },
+    {
+      "Id": 2,
+      "Texto": "ruizperezignacio2001@gmail.com",
+      "Logo": "correo",
+      "Enlace":false
+
+    },
+    {
+      "Id": 3,
+      "Texto": "Ver Repositorio",
+      "Logo": "gitHub",
+      "Enlace":true,
+      "NombreEnlace":"https://github.com/NachoRP01"
+    },
+    {
+      "Id": 4,
+      "Texto": "Ver Linkedin",
+      "Logo": "linkeDin",
+      "Enlace":true,
+      "NombreEnlace":"www.linkedin.com/in/ruizperezignacio"
+    }
+  ]
+}
