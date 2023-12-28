@@ -1,5 +1,0 @@
-
-@function getColor($colorName,$index){
-    $arrayColor:map-get($paleta,$colorName);
-    @return nth($arrayColor,$index);
-};
