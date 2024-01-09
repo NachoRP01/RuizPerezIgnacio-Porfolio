@@ -10,6 +10,8 @@ import { HomeComponent } from './components/pages/home/home.component';
 import { ContactaComponent } from './components/pages/contacta/contacta.component';
 import { RouterModule } from '@angular/router';
 import { ProyectoCardComponent } from './components/elements/proyecto-card/proyecto-card.component';
+import { CardComponent } from './components/elements/card/card.component';
+import { ProyectosComponent } from './components/pages/proyectos/proyectos.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +21,8 @@ import { ProyectoCardComponent } from './components/elements/proyecto-card/proye
     HomeComponent,
     ContactaComponent,
     ProyectoCardComponent,
+    CardComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,

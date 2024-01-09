@@ -11,68 +11,95 @@
       "Texto": "En el centro formativo creé una web que pretendía dar a conocer las Skills FP(olimpiadas de formación profesional)."
     },
     {
-        "Id": 3,
-        "NombreProyecto": "Hospital",
-        "Texto": "También hice una aplicación para un Hospital con menú usando Java."   
+      "Id": 3,
+      "NombreProyecto": "Hospital",
+      "Texto": "También hice una aplicación para un Hospital con menú usando Java."
     },
     {
-        "Id": 4,
-        "NombreProyecto": "BestPlans",
-        "Texto": "Hace unos días, hice una web con un grupo de personas que se dedicaba en presentar una consultoria llamada BestPlans creada en WordPress."   
-   
+      "Id": 4,
+      "NombreProyecto": "BestPlans",
+      "Texto": "Hace unos días, hice una web con un grupo de personas que se dedicaba en presentar una consultoria llamada BestPlans creada en WordPress."
     }
   ],
   "Lenguajes": [
     {
       "Id": 1,
-      "NombreProyecto": "",
-      "Texto": "BLABLABLA",
-      "ImagenNombre": "Angular"
+      "NombreLenguaje": "Angular",
+      "Texto": "",
+      "ImagenNombre": ""
     },
     {
-      "Id": 1,
-      "NombreTipo": "Genero",
-      "TipoProducto": null,
-      "Opciones": [
-        {
-          "Id": 1,
-          "Nombre": "Hombre"
-        },
-        {
-          "Id": 2,
-          "Nombre": "Mujer"
-        }
-      ],
-      "SeleccionMultiple": false
-    }
+      "Id": 2,
+      "NombreLenguaje": "Html5",
+      "Texto": "",
+      "ImagenNombre": ""
+    },
+    { "Id": 3, "NombreLenguaje": "CSS", "Texto": "", "ImagenNombre": "" },
+    { "Id": 4, "NombreLenguaje": "Sass", "Texto": "", "ImagenNombre": "" },
+    { "Id": 5, "NombreLenguaje": "Java", "Texto": "", "ImagenNombre": "" },
+    {
+      "Id": 6,
+      "NombreLenguaje": "JavaScript",
+      "Texto": "",
+      "ImagenNombre": ""
+    },
+    { "Id": 7, "NombreLenguaje": "MySql", "Texto": "", "ImagenNombre": "" },
+    { "Id": 8, "NombreLenguaje": "C", "Texto": "", "ImagenNombre": "" },
+    { "Id": 9, "NombreLenguaje": "C++", "Texto": "", "ImagenNombre": "" },
+    { "Id": 10, "NombreLenguaje": "PHP", "Texto": "", "ImagenNombre": "" },
+    { "Id": 11, "NombreLenguaje": "Laravel", "Texto": "", "ImagenNombre": "" }
   ],
-  "Contacto":[
+  "Contacto": [
     {
       "Id": 1,
       "Texto": "+34 693799678",
       "Logo": "telefono",
-      "Enlace":false
+      "Enlace": false,
+      "NombreEnlace": null
     },
     {
       "Id": 2,
       "Texto": "ruizperezignacio2001@gmail.com",
       "Logo": "correo",
-      "Enlace":false
-
+      "Enlace": false,
+      "NombreEnlace": null
     },
     {
       "Id": 3,
       "Texto": "Ver Repositorio",
       "Logo": "gitHub",
-      "Enlace":true,
-      "NombreEnlace":"https://github.com/NachoRP01"
+      "Enlace": true,
+      "NombreEnlace": "https://github.com/NachoRP01"
     },
     {
       "Id": 4,
       "Texto": "Ver Linkedin",
-      "Logo": "linkeDin",
-      "Enlace":true,
-      "NombreEnlace":"www.linkedin.com/in/ruizperezignacio"
+      "Logo": "linkedIn",
+      "Enlace": true,
+      "NombreEnlace": "https://www.linkedin.com/in/ruizperezignacio/"
     }
+  ],
+  "Card": [
+    {
+      "Id": 1,
+      "Titulo": "¿Quién soy?",
+      "Contenido": "Hola a tod@s, soy Ignacio Ruiz Pérez un joven desarrollador web que ha comenzado una nueva etapa en su vida y estoy presentando mi porfolio creado en Angular v.12.",
+      "Imagen": "img2",
+      "TieneBoton": false
+    },
+    {
+      "Id": 2,
+      "Titulo": "¿Cúal ha sido mi recorrido?",
+      "Contenido": "Al terminar bachiller escogí el ciclo de Desarrollo de Aplicaciones Web en el centro CIPFP Mislata donde aprendí la mayoría de lenguajes como Java, Angular o PHP. Tras ello, hice un par de cursos en UDEMY y otro curso de comunicación digital en Cámara Valencia.",
+      "Imagen": "img3",
+      "TieneBoton": false
+    },
+    { 
+    "Id": 3, 
+    "Titulo": "¿Cuál es mi futuro?", 
+    "Contenido": "Estoy buscando nuevas oportunidades laborales que me permitan seguir creciendo como desarrollador web y contribuir al éxito de las empresas🙌. Es el momento del cambio.",
+    "Imagen": "img5",
+    "TieneBoton": true
+     }
   ]
 }

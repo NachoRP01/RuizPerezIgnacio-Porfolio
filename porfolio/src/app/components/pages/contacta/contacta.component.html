@@ -1,18 +1,22 @@
 <div class="c-section l-flex">
-    <div class="c-column--2 g--padding-2vh">
-      <div class="g--title-XL">MUCHAS GRACIAS</div>
-      <div class="c-text">
-    Si has llegado aquí te agradezco el timpo que has dedicado y por el interes que has mostrado hacía mi proyecto.
-    Una vez dicho esto aquí tienes los diferentes medios con los que podrás contactarme.
-      </div>
-      <div class="c-listado">
-
-      </div>
+  <div class="c-column--2 g--padding-2vh">
+    <div class="c-title g--color-principal-4 g--title-XL">MUCHAS GRACIAS</div>
+    <div class="c-text  g--color-principal-1 g--text-L">
+      Si has llegado aquí te agradezco el timpo que has dedicado y por el
+      interes que has mostrado hacía mi proyecto. Una vez dicho esto, aquí
+      tienes los diferentes medios con los que podrás contactarme.
     </div>
-    <div class="c-column--2 g--padding-2vh">
-      <img
-        src="../../../../assets/img/img2.jpeg"
-        class="g--width-100"
-      />
+    <div class="c-listado l-flex" *ngFor="let elemento of contactoDatos">
+      <div>
+        <img src="../../../../assets/img/{{ elemento.Logo }}.png"/>
+      </div>
+      <div *ngIf="elemento.Enlace != true" class="c-text g--color-principal-1 g--text-L">{{ elemento.Texto }}</div>
+      <div *ngIf="elemento.Enlace == true">
+        <a href="{{ elemento.NombreEnlace }}">{{ elemento.NombreEnlace }}</a>
+      </div>
     </div>
   </div>
+  <div class="c-column--2 g--padding-2vh">
+    <img src="../../../../assets/img/img2.jpeg" class="g--width-100" />
+  </div>
+</div>

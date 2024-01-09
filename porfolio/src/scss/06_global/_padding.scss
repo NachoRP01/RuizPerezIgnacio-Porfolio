@@ -1,4 +1,4 @@
-    @for $index from 0 to 10{
+    @for $index from 0 to 21{
         .g--padding-#{$index+1}vh{
             padding:$index+1 * 1vh;
         }

@@ -2,20 +2,21 @@ import { Component, OnInit } from '@angular/core';
 import { ProductosService } from 'src/app/services/productos.service';
 
 @Component({
-  selector: 'app-lenguajes',
-  templateUrl: './lenguajes.component.html',
-  styleUrls: ['./lenguajes.component.scss']
+  selector: 'app-card',
+  templateUrl: './card.component.html',
+  styleUrls: ['./card.component.scss']
 })
-export class LenguajesComponent implements OnInit {
-  lenguajes: any;
+export class CardComponent implements OnInit {
+  cards: any;
 
   constructor(private proyectosService:ProductosService) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
     this.proyectosService.getProyectos()
     .subscribe({
       next:(proyecto:any)=>{
-        this.lenguajes= proyecto.Lenguajes;
+        this.cards= proyecto.Card;
+        console.log(this.cards)
       },
       error:(e:any)=>{
         console.error(e)

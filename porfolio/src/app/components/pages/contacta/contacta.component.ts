@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Contacto } from 'src/app/models/contacto.model';
+import { ProductosService } from 'src/app/services/productos.service';
 
 @Component({
   selector: 'app-contacta',
@@ -6,10 +8,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contacta.component.scss']
 })
 export class ContactaComponent implements OnInit {
+  contactoDatos: Contacto[]=[];
 
-  constructor() { }
+  constructor(private proyectosService:ProductosService) { }
 
   ngOnInit(): void {
+    this.proyectosService.getProyectos()
+    .subscribe({
+      next:(proyecto:any)=>{
+        this.contactoDatos = proyecto.Contacto;
+      },
+      error:(e:any)=>{
+        console.error(e)
+      },
+      complete:()=> {
+        console.log('completado')
+      },
+    })
   }
-
-}
+  }
