@@ -16,7 +16,6 @@ export class CardComponent implements OnInit {
     .subscribe({
       next:(proyecto:any)=>{
         this.cards= proyecto.Card;
-        console.log(this.cards)
       },
       error:(e:any)=>{
         console.error(e)

@@ -1,37 +1,46 @@
 .c-button {
+  cursor: pointer;
+  padding: 14px;
+  &--primary {
+    border: 1px solid getColor("principal", 3);
+    background-color: getColor("principal", 3);
+    color: getColor("white",8); 
     
-    cursor: pointer;
-    border: 1px solid getColor("principal",3);
-    background-color: #FD6B1C;
+   }
+   &--primary:hover{
+      border: 1px solid getColor("principal", 4);
+    background-color: getColor("principal", 4);
+    color: getColor("white",8); 
+    }
+  &--secondary {
+    color: getColor("white",8); 
+    background-color: getColor("alternative", 3);
+  } 
+  &--secondary:hover {
+    color: getColor("white",8); 
+    background-color: getColor("alternative", 4);
+  }
+
+  &--tertiary {
+    background-color: transparent;
+    color:  getColor("alternative", 3);
+    border: none;
+  }
+  &--tertiary-alt {
+    background-color: transparent;
+    color: getColor("principal", 5);
+    border: none;
+  }
+
+  &--alternative {
+    margin-left: 0px;
+    background-color:getColor("principal", 5);
+    border-color:getColor("principal", 5);
     color: white;
-    padding:14px;
-    width: 100% ;
-
-    &--secudary {
-        background-color: white;
-        color: #FD6B1C;
-    }
-
-    &--tertiary {
-        background-color: transparent;
-        color: #FD6B1C;
-        border: none;
-    }
-    &--tertiary-alt{
-        background-color: transparent;
-        color:#0082E6;
-        border: none;
-    }
-
-    &--alternative {
-        margin-left: 0px;
-        background-color: #0082E6;
-        border-color: #0082E6;
-        color: white;
-    }
-    &--dangerous{
-        background-color: #c53030;
-        border-color: #c53030;
-        color: white;
-    }
+  }
+  &--dangerous {
+    background-color: getColor("red", 5);
+    border-color: getColor("red", 5);
+    color: white;
+  }
 }

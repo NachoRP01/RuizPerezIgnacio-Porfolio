@@ -2,4 +2,27 @@
   &__cabecera {
     padding: 0 3vh 0 3vh;
   }
+  &__lenguaje {
+    width: 200px;
+    height: 250px;
+    position: relative;
+    perspective: 1000px;
+  }
+  
+}
+.c-opcion__lenguaje:hover .carta {
+    transform: rotateY(180deg);
+  }
+.carta {
+  transform-style: preserve-3d;
+  transition: all 1s linear;
+}
+
+.cara {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.cara.detras {
+  transform: rotateY(180deg);
 }

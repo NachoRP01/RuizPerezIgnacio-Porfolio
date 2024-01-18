@@ -25,29 +25,23 @@
     {
       "Id": 1,
       "NombreLenguaje": "Angular",
-      "Texto": "",
-      "ImagenNombre": ""
+      "Texto": "Angular es un marco de desarrollo web que permite crear aplicaciones web escalables y seguras con confianza."
     },
-    {
-      "Id": 2,
-      "NombreLenguaje": "Html5",
-      "Texto": "",
-      "ImagenNombre": ""
-    },
-    { "Id": 3, "NombreLenguaje": "CSS", "Texto": "", "ImagenNombre": "" },
-    { "Id": 4, "NombreLenguaje": "Sass", "Texto": "", "ImagenNombre": "" },
-    { "Id": 5, "NombreLenguaje": "Java", "Texto": "", "ImagenNombre": "" },
+    { "Id": 2, "NombreLenguaje": "Html5", "Texto": "HTML es un lenguaje de marcado para la web que define la estructura de las páginas web." },
+    { "Id": 3, "NombreLenguaje": "Css", "Texto": "CSS es un lenguaje de estilo que se utiliza para dar formato a los elementos HTML en una página web." },
+    { "Id": 4, "NombreLenguaje": "Sass", "Texto": "SASS es un preprocesador de CSS que permite escribir CSS con características avanzadas." },
+    { "Id": 5, "NombreLenguaje": "Java", "Texto": "Java es un lenguaje de programación de propósito general, seguro y rápido." },
     {
       "Id": 6,
       "NombreLenguaje": "JavaScript",
-      "Texto": "",
-      "ImagenNombre": ""
+      "Texto": "JavaScript es un lenguaje de programación que permite crear contenido dinámico y complejo en páginas web."
     },
-    { "Id": 7, "NombreLenguaje": "MySql", "Texto": "", "ImagenNombre": "" },
-    { "Id": 8, "NombreLenguaje": "C", "Texto": "", "ImagenNombre": "" },
-    { "Id": 9, "NombreLenguaje": "C++", "Texto": "", "ImagenNombre": "" },
-    { "Id": 10, "NombreLenguaje": "PHP", "Texto": "", "ImagenNombre": "" },
-    { "Id": 11, "NombreLenguaje": "Laravel", "Texto": "", "ImagenNombre": "" }
+    { "Id": 7, "NombreLenguaje": "MySql", "Texto": "MySQL es un sistema de gestión de bases de datos relacionales de código abierto (RDBMS) con un modelo cliente-servidor." },
+    { "Id": 8, "NombreLenguaje": "C", "Texto": "C es un lenguaje de programación de propósito general, seguro y rápido." },
+    { "Id": 9, "NombreLenguaje": "C++", "Texto": "C++ es un lenguaje de programación de propósito general, seguro y rápido." },
+    { "Id": 10, "NombreLenguaje": "PHP", "Texto": "PHP es un lenguaje de programación de código abierto para el desarrollo web y aplicaciones generales." },
+    { "Id": 11, "NombreLenguaje": "Laravel", "Texto": "Laravel es un framework PHP para construir aplicaciones web con funcionalidades preprogramadas." },
+    { "Id": 12, "NombreLenguaje": "WordPress", "Texto": "WordPress es un sistema de gestión de contenido de código abierto para crear sitios web y blogs." }
   ],
   "Contacto": [
     {
@@ -66,14 +60,14 @@
     },
     {
       "Id": 3,
-      "Texto": "Ver Repositorio",
+      "Texto": "Ver repositorio remoto",
       "Logo": "gitHub",
       "Enlace": true,
       "NombreEnlace": "https://github.com/NachoRP01"
     },
     {
       "Id": 4,
-      "Texto": "Ver Linkedin",
+      "Texto": "Ver linkedin",
       "Logo": "linkedIn",
       "Enlace": true,
       "NombreEnlace": "https://www.linkedin.com/in/ruizperezignacio/"
@@ -94,12 +88,12 @@
       "Imagen": "img3",
       "TieneBoton": false
     },
-    { 
-    "Id": 3, 
-    "Titulo": "¿Cuál es mi futuro?", 
-    "Contenido": "Estoy buscando nuevas oportunidades laborales que me permitan seguir creciendo como desarrollador web y contribuir al éxito de las empresas🙌. Es el momento del cambio.",
-    "Imagen": "img5",
-    "TieneBoton": true
-     }
+    {
+      "Id": 3,
+      "Titulo": "¿Cuál es mi futuro?",
+      "Contenido": "Estoy buscando nuevas oportunidades laborales que me permitan seguir creciendo como desarrollador web y contribuir al éxito de las empresas🙌. Es el momento del cambio.",
+      "Imagen": "img5",
+      "TieneBoton": true
+    }
   ]
 }

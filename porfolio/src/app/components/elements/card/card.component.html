@@ -1,4 +1,3 @@
-<div class=" l-flex l-flex--wrap">
 <div class="c-panel" *ngFor="let card of cards">
   <div class="c-panel__content l-flex l-flex--wrap l-flex__justify-content--space-around">
     <div
@@ -12,8 +11,8 @@
        {{card.Contenido}}
       </div>
       <div *ngIf="card.TieneBoton" class="g--width-80" >
-        <div class="c-button g--redondeado " onclick="location.href='./contacto'">
-          Contactame
+        <div class="c-button c-button--secondary g--width-100 g--redondeado " onclick="location.href='./contacto'">
+          Contáctame
         </div>
       </div>
 
@@ -22,5 +21,4 @@
     <img class="c-img g--redondeado" src="../../../../assets/img/{{card.Imagen}}.jpeg">
     </div>
   </div>
-</div>
 </div>

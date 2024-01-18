@@ -1,7 +1,16 @@
-.g--width{
-    &-80{width: 80px;
-    }
-    &-100{
-        width:100%;
-    }   
+.g--width {
+  &-40{
+    width: 40px;
+}
+  &-80 {
+    width: 80px;
+  }&-110 {
+    width: 110px;
+  }
+  &-150 {
+    width: 150px;
+  }
+  &-100 {
+    width: 100%;
+  }
 }

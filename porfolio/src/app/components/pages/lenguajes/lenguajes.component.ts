@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Lenguajes } from 'src/app/models/lenguajes.model';
 import { ProductosService } from 'src/app/services/productos.service';
 
 @Component({
@@ -7,7 +8,7 @@ import { ProductosService } from 'src/app/services/productos.service';
   styleUrls: ['./lenguajes.component.scss']
 })
 export class LenguajesComponent implements OnInit {
-  lenguajes: any;
+  lenguajes: Lenguajes[]=[];
 
   constructor(private proyectosService:ProductosService) { }
 

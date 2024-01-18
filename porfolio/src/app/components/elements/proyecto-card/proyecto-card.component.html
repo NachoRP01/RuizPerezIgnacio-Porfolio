@@ -1,8 +1,8 @@
-<div class="l-flex">
-  <div class="l-flex l-flex__direction--column g--padding-2vh c-column--4" *ngFor="let proyecto of proyectos">
-    <div class="c-img">
+<div class="l-flex l-flex--wrap l-flex__justify-content--space-around">
+  <div class="l-flex l-flex__direction--column g--padding-2vh g--margin-t-5vh c-column--4 g--sombreado g--redondeado" *ngFor="let proyecto of proyectos">
+    <div class="g--width-150">
       <img
-        class="g--width-100"
+        class="c-img"
         src="../../../../assets/img/{{ proyecto.NombreProyecto }}.png"
       />
     </div>

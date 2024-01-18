@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Proyecto } from 'src/app/models/proyectos.model';
 import { ProductosService } from 'src/app/services/productos.service';
 
 @Component({
@@ -7,7 +8,7 @@ import { ProductosService } from 'src/app/services/productos.service';
   styleUrls: ['./proyecto-card.component.scss']
 })
 export class ProyectoCardComponent implements OnInit {
-proyectos:any;
+proyectos:Proyecto[]=[];
   constructor(private proyectosService:ProductosService) { }
 
   ngOnInit(): void {

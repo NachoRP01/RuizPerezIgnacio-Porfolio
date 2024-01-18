@@ -1,3 +1,23 @@
-<div *ngFor="let lenguaje of lenguajes">
-{{lenguaje.NombreLenguaje}}
+<div class="l-flex l-flex--wrap l-flex__justify-content--space-around">
+  <div
+    class="l-flex l-flex__direction--column c-opcion__lenguaje g--padding-2vh g--margin-t-5vh c-column--4 g--sombreado g--redondeado"
+    *ngFor="let lenguaje of lenguajes"
+  >
+      <div class="carta g--width-100 g--height-100">
+        <div class="cara g--width-100 g--height-100">
+          <img
+            class="g--width-100 g--height-100"
+            src="../../../../assets/img/{{ lenguaje.NombreLenguaje }}.png"
+          />
+        </div>
+        <div class="cara detras">
+          <div
+            class="g--title-L g--color-principal-4"
+          >
+            {{ lenguaje.NombreLenguaje }}
+          </div>
+          <div class="c-text g--text-S g--color-principal-1">{{ lenguaje.Texto }}</div>
+        </div>
+      </div>
+  </div>
 </div>
