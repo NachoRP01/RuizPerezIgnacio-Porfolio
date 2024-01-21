@@ -25,16 +25,14 @@
     {
       "Id": 1,
       "NombreLenguaje": "Angular",
-      "Texto": "Angular es un marco de desarrollo web que permite crear aplicaciones web escalables y seguras con confianza."
+      "Texto": "Angular es un framework que permite crear aplicaciones web escalables y seguras."
     },
     { "Id": 2, "NombreLenguaje": "Html5", "Texto": "HTML es un lenguaje de marcado para la web que define la estructura de las páginas web." },
     { "Id": 3, "NombreLenguaje": "Css", "Texto": "CSS es un lenguaje de estilo que se utiliza para dar formato a los elementos HTML en una página web." },
     { "Id": 4, "NombreLenguaje": "Sass", "Texto": "SASS es un preprocesador de CSS que permite escribir CSS con características avanzadas." },
     { "Id": 5, "NombreLenguaje": "Java", "Texto": "Java es un lenguaje de programación de propósito general, seguro y rápido." },
     {
-      "Id": 6,
-      "NombreLenguaje": "JavaScript",
-      "Texto": "JavaScript es un lenguaje de programación que permite crear contenido dinámico y complejo en páginas web."
+      "Id": 6, "NombreLenguaje": "JavaScript","Texto": "JavaScript es un lenguaje de programación que permite crear contenido dinámico páginas web."
     },
     { "Id": 7, "NombreLenguaje": "MySql", "Texto": "MySQL es un sistema de gestión de bases de datos relacionales de código abierto (RDBMS) con un modelo cliente-servidor." },
     { "Id": 8, "NombreLenguaje": "C", "Texto": "C es un lenguaje de programación de propósito general, seguro y rápido." },
