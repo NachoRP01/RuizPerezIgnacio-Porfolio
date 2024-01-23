@@ -13,10 +13,10 @@ export class LenguajesComponent implements OnInit {
   constructor(private proyectosService:ProductosService) { }
 
   ngOnInit(): void {
-    this.proyectosService.getProyectos()
+    this.proyectosService.getLenguajes()
     .subscribe({
-      next:(proyecto:any)=>{
-        this.lenguajes= proyecto.Lenguajes;
+      next:(Lenguajes:any)=>{
+        this.lenguajes= Lenguajes;
       },
       error:(e:any)=>{
         console.error(e)

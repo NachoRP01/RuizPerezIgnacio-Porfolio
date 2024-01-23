@@ -12,10 +12,11 @@ export class CardComponent implements OnInit {
   constructor(private proyectosService:ProductosService) { }
 
   ngOnInit() {
-    this.proyectosService.getProyectos()
+    this.proyectosService.getTarjeta()
     .subscribe({
-      next:(proyecto:any)=>{
-        this.cards= proyecto.Card;
+      next:(Card:any)=>{
+        console.log(Card)
+        this.cards= Card;
       },
       error:(e:any)=>{
         console.error(e)

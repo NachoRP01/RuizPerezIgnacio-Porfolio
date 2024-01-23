@@ -13,10 +13,11 @@ export class ContactaComponent implements OnInit {
   constructor(private proyectosService:ProductosService) { }
 
   ngOnInit(): void {
-    this.proyectosService.getProyectos()
+    this.proyectosService.getContactos()
     .subscribe({
-      next:(proyecto:any)=>{
-        this.contactoDatos = proyecto.Contacto;
+      next:(Contacto:any)=>{
+        this.contactoDatos = Contacto;
+        console
       },
       error:(e:any)=>{
         console.error(e)

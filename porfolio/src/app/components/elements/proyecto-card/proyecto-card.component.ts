@@ -14,8 +14,9 @@ proyectos:Proyecto[]=[];
   ngOnInit(): void {
     this.proyectosService.getProyectos()
     .subscribe({
-      next:(proyecto:any)=>{
-        this.proyectos= proyecto.Proyectos;
+      next:(proyecto:Proyecto[])=>{
+        console.log(proyecto)
+        this.proyectos= proyecto;
       },
       error:(e:any)=>{
         console.error(e)

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "proyecto_Moon": {
+    "porfolio": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "proyecto_Moon:build:production"
+              "browserTarget": "porfolio:build:production"
             },
             "development": {
-              "browserTarget": "proyecto_Moon:build:development"
+              "browserTarget": "porfolio:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "proyecto_Moon:build"
+            "browserTarget": "porfolio:build"
           }
         },
         "test": {
@@ -107,5 +107,5 @@
       }
     }
   },
-  "defaultProject": "proyecto_Moon"
+  "defaultProject": "porfolio"
 }

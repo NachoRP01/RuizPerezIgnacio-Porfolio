@@ -1,3 +1,3 @@
 export class Proyecto{
-    constructor(public NombreProyecto:string, public Texto:string){}
+    constructor(public Nombre:string, public Texto:string){}
     }

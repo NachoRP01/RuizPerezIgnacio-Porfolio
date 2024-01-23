@@ -1,3 +1,3 @@
 export class Lenguajes{
-    constructor(public NombreLenguaje:string, public Texto:string, public IgmagenNombre:string){}
+    constructor(public Nombre:string, public Texto:string){}
 }
