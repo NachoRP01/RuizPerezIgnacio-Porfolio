@@ -17,6 +17,7 @@ export class LenguajesComponent implements OnInit {
     .subscribe({
       next:(Lenguajes:any)=>{
         this.lenguajes= Lenguajes;
+        console.log(this.lenguajes)
       },
       error:(e:any)=>{
         console.error(e)

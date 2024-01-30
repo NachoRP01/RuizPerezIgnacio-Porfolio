@@ -1,24 +1,35 @@
-<div class="g--title-XL g--margin-2vh g--padding-2vh g--color-principal-4">Lenguajes</div>
-<div class="c-text g--padding-2vh g--color-principal-1 g--text-L">Estos son los frameworks y lenguajes que he ido aprendiendo durante estos años de estudio y por mi cuenta.</div>
-<div class="c-part">
-  <div class="l-flex l-flex--wrap l-flex__justify-content--space-around">
+<div class="g--title-XL g--margin-2vh g--padding-2vh g--color-principal-4">
+  Lenguajes
+</div>
+<div class="c-text g--padding-2vh g--color-principal-1 g--text-L">
+  Estos son los frameworks y lenguajes que he ido aprendiendo durante estos años
+  de estudio y de forma autodidáctica.
+</div>
+<div class="c-part" *ngFor="let lenguaje of lenguajes">
+  <hr class="g--back-gradient g--redondeado" />
+  <div class="g--title-L g--color-principal-4">
+    {{ lenguaje.parteWeb }}
+  </div>
+  <div
+    class="l-flex l-flex--wrap l-flex__justify-content--space-around"
+  >
     <div
-      class="l-flex l-flex__direction--column c-opcion__lenguaje g--padding-2vh g--margin-t-5vh c-column--4 g--sombreado g--redondeado"
-      *ngFor="let lenguaje of lenguajes"
-    >
+      class="l-flex l-flex__direction--column c-opcion__lenguaje g--padding-2vh g--margin-5vh c-column--4 g--sombreado g--redondeado"
+      *ngFor="let objetoLenguaje of lenguaje.arrayLenguajes"
+      >
       <div class="carta g--width-100 g--height-100">
         <div class="cara g--width-100 g--height-100">
           <img
             class="g--width-100 g--height-100"
-            src="../../../../assets/img/{{ lenguaje.Nombre }}.png"
+            src="../../../../assets/img/{{ objetoLenguaje.nombreLenguaje }}.png"
           />
         </div>
         <div class="cara detras">
           <div class="g--title-L g--color-principal-4">
-            {{ lenguaje.Nombre }}
+            {{ objetoLenguaje.nombreLenguaje }}
           </div>
           <div class="c-text g--text-S g--color-principal-1">
-            {{ lenguaje.Texto }}
+            {{ objetoLenguaje.texto }}
           </div>
         </div>
       </div>
