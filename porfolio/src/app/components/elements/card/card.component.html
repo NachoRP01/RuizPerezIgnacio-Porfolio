@@ -11,9 +11,11 @@
        {{card.Contenido}}
       </div>
       <div *ngIf="card.TieneBoton" class="g--width-80" >
-        <div class="c-button c-button--secondary g--width-100 g--redondeado " onclick="location.href='./contacto'">
+        <a  routerLink="/contacto"
+        >
+        <div class="c-button c-button--secondary g--width-100 g--redondeado ">
           Contáctame
-        </div>
+        </div></a>
       </div>
 
     </div>
